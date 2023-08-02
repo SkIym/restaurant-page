@@ -37,11 +37,11 @@ contactLink.textContent = 'Contact';
 contactLink.onclick = () => showRelatedContent(contactPage());
 navBar.appendChild(contactLink);
 
-const footer = document.createElement('div');
-footer.textContent = "Twitter | Facebook | About us"
-footer.id = 'footer';
+// const footer = document.createElement('div');
+// footer.textContent = "Twitter | Facebook | About us"
+// footer.id = 'footer';
 
-contentContainer.appendChild(footer)
+// contentContainer.appendChild(footer)
 
 // change what's shown in the content field
 function showRelatedContent(page){
